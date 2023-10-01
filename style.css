@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 10vh;
+    width: 100%;
+}
+
+main {
+
+    height: 80vh;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+
+
+}
+
+.btn {
+    aspect-ratio: 1.8 / 1;
+}
+
+.navbar-nav li {
+    width: 50%;
+    margin: 0 25px
+}
+
+.carousel-inner img {
+    height: 350px
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+flex-direction: column;
+width: 22.6%;
+}
