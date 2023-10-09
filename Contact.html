@@ -10,10 +10,10 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-color">
     <header>
         <div class="icono">
-            <img src="./Recursos_Amazing_Events_Task_1/favicon.png" alt="Bootstrap" width="100" height="100">
+            <img src="./Recursos_Amazing_Events_Task_1/amazing_brand.png" alt="Bootstrap" width="400" height="100">
         </div>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -80,27 +80,46 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <div class="form-group">
-            <input type="text" class="form-control" id="name" placeholder="Name" style="margin: 10px;">
-            <input type="email" class="form-control" id="email" placeholder="Email" style="margin: 10px;">
-            <textarea class="form-control" id="message" placeholder="Message" style="width: 500px; height: 200px; margin: 10px;"></textarea>
-            </textarea>
+        <div class="container">
+            <h1 class="mt-4">Formulario de Contacto</h1>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Nombre:</label>
+                  <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Ingresa tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
           </div>
-          
-          <button type="submit" class="btn btn-primary" style="margin-left: 10px;">Enviar</button>
-          
 
 
     </main>
     <footer>
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary">Left</button>
-            <button type="button" class="btn btn-primary">Middle</button>
-            <button type="button" class="btn btn-primary">Right</button>
-          </div>
-
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="btn-group d-flex justify-content-center" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">facebook</button>
+                        <button type="button" class="btn btn-primary">instagram</button>
+                        <button type="button" class="btn btn-primary">whatsapp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   
 </body>
 
 </html>

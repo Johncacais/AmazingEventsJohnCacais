@@ -1,5 +1,17 @@
+
+
+.bg-color {
+    background-color: #3333335a;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
 header {
-    display: flex;
+display: flex;
     justify-content: space-between;
 
     height: 10vh;
@@ -9,16 +21,12 @@ header {
 main {
 
     height: 80vh;
-    width: 100%;
-}
+    min-width: 100%;
 
-footer {
-    display: flex;
-    height: 10vh;
-    width: 100%;
 
 
 }
+
 
 .btn {
     aspect-ratio: 1.8 / 1;
@@ -30,22 +38,73 @@ footer {
 }
 
 .carousel-inner img {
-    height: 350px
-}
+    height: 500px
 
-.cards {
-    display: flex;
-    justify-content: space-around;
-}
 
-.barra {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
 }
 
 .form-group {
     display: flex;
-flex-direction: column;
-width: 22.6%;
+    flex-direction: column;
+    width: 22.6%;
+    flex-wrap: wrap;
+}
+
+.home-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-title {
+    font-size: 36px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+h1 .home-title {
+    font-size:200px;
+}
+
+
+.custom-btn {
+    background-color: #87CEEB;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+
+.custom-btn:hover {
+    background-color: #00BFFF;
+}
+
+@media (max-width: 768px) {
+
+    .home-title {
+        font-size: 24px;
+    }
+
+
+    footer {
+        background-color: #333;
+        color: #fff;
+    
+    }
+
+    .logo {
+        text-align: right;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+    
+    }
+}
+
+@media (min-width: 375px) {
+    .home-title {
+        font-size: 10px;
+    }
+
 }
